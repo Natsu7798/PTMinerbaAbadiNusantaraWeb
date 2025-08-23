@@ -58,9 +58,6 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                <div className="w-4 h-4 bg-red-600 rounded-full"></div>
-              </div>
               <div>
                 <h1 className={`text-xl font-bold transition-colors ${isScrolled ? "text-gray-900" : "text-white"}`}>
                   PT MAN
