@@ -109,11 +109,15 @@ export default function AboutPage() {
             Join us in transforming Indonesia's mineral trading landscape with
             professional, transparent, and competitive services.
           </p>
-          <Link href="/#contact">
+          <a
+            href="https://wa.me/6281286185200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg">
               Contact Us Today
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
 
