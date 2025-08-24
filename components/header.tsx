@@ -99,16 +99,6 @@ export function Header() {
             >
               Products and Services
             </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className={`font-medium pb-1 transition-colors ${
-                isActive("contact")
-                  ? "text-yellow-400 border-b-2 border-yellow-400"
-                  : `${isScrolled ? "text-gray-700 hover:text-red-600" : "text-white hover:text-yellow-400"}`
-              }`}
-            >
-              Contact Us
-            </button>
           </nav>
 
           {/* Mobile menu button */}
@@ -161,16 +151,6 @@ export function Header() {
                 }`}
               >
                 Products and Services
-              </button>
-              <button
-                onClick={() => scrollToSection("contact")}
-                className={`block w-full text-left px-3 py-2 rounded-md font-medium transition-colors ${
-                  isActive("contact")
-                    ? "text-yellow-400"
-                    : `${isScrolled ? "text-gray-700 hover:text-red-600 hover:bg-gray-50" : "text-white hover:text-yellow-400 hover:bg-white/10"}`
-                }`}
-              >
-                Contact Us
               </button>
             </div>
           </div>
