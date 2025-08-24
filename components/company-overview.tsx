@@ -16,7 +16,7 @@ export function CompanyOverview() {
             </p>
           </div>
           <div className="lg:w-1/3 flex justify-end">
-            <Link href="/About" target="_blank" rel="noopener noreferrer">
+            <Link href="/about" target="_blank">
               <Button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-8 py-3 rounded-lg">
                 Find Out More
               </Button>
